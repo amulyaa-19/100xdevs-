@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+header{
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+ .nav-bar{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-left: 40px;
+  position: fixed;
+  top: 0;
+
+ }
+ .nav-logo{
+  width: 420px;
+  
+ }
+ .image-logo{
+  height: 22px;
+  cursor: pointer;
+  padding-left: 42px;
+}
+.nav-texts{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 6px;
+}
+.sign{
+  margin-left: 500px;
+}
+.text{
+  padding-left: 60px;
+  color: #666666;
+  font-size: 20px;
+  cursor: pointer;
+}
+.text:hover{
+  color: skyblue;
+}
+.ham-menu{
+  padding-left: 40px;
+}
+.ham-img{
+  height: 30px;
+  width: 30px;
+  margin-top: 4px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hero-section{
+  margin-top: 165px;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 1500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  color: #424242;
+  align-items: center;
+}
+.hero-img{
+  
+  width: 800px;
+  height: 400px;
+  max-width: 100%;
+}
+.heading1{
+  font-size: 60px;
+  margin-top: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+.heading2{
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.sign-btn{
+  margin-top: 48px;
+  border: none;
+  cursor: pointer;
+  background-color: #387ed1;
+  height: 80px;
+  width: 210px;
+  font-size: 26px;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0) ;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* 3rd section or the ecosystem */
+.container{
+  margin-top: 350px;
+}
+.img-text{
+  text-align: center;
+  
+}
+.ecosystem {
+  padding: 0px 20px 120px;
+}
+
+.ecosystem-content {
+  display: flex;
+  padding: 30px 20px;
+}
+.eco-text{
+  margin: 0px 100px 40px 20px;
+  padding: 0px 20px 0px 20px;
+  font-size: 30px;
+}
+
+.eco-text h2{
+  columns: #424242;
+  font-size: 50px;
+  margin-bottom: 50px;
+  line-height: 1.5;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.why-us-section h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #424242;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+}
+
+.why-us-section p {
+  font-size: 20px;
+  margin: 8px 0px 32px;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+.ecosystem-text-link {
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 600;
+}
+
+.ecosystem-img {
+  width: 1800px;
+  height: 700px;
+  margin: 20px 0px 0px;
+  max-width: 100%;
+}
+.ecosystem-img-link {
+  margin: 24px 10px 15px;
+  font-weight: 1000;
+}
+.press-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.press-logo{
+ height: 50px;
+
+}
